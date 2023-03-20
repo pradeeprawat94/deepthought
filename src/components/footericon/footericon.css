@@ -1,0 +1,23 @@
+.footer-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.background {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.background >img{
+    height: 40px;
+}

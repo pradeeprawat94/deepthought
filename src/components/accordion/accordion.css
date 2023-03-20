@@ -1,0 +1,40 @@
+.questions {
+    background-color: #F2F2F2;
+    display: flex;
+    gap: 15px;
+    padding: 16px 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.questions>p {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.answers {
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+
+}
+
+.answer-expand{
+    height: fit-content;
+}
+.padding{
+    padding: 14px 14px;
+
+}
+
+.see-more {
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #606161;
+    font-weight: 600;
+    text-align: end;
+}
